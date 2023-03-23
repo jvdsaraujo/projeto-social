@@ -24,12 +24,13 @@ main {
 
 section#tel {
     position: absolute;
-    height: 627px;
-    width: 311px;
-    background: url(../imagens/frame-iphone.png) center center no-repeat fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: url(../imagens/frame-iphone.png) center no-repeat fixed;
+    background-size: cover;
+    height: 627px;
+    width: 311px;
 }
 
 iframe#tela {
